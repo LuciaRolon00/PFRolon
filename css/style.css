@@ -1,0 +1,245 @@
+@charset "UTF-8";
+body {
+  background-color: rgb(211, 143, 112);
+}
+
+h2 {
+  text-align: center;
+  color: rgb(211, 30, 69);
+  font-size: xx-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: rgb(119, 5, 28);
+  font-size: x-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-style: italic;
+}
+
+h4 {
+  color: rgb(119, 5, 28);
+  font-size: x-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-style: italic;
+}
+
+.textoIndex {
+  color: rgb(141, 75, 34);
+  text-align: center;
+  font-size: x-large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin: 5px;
+}
+
+/* Estilos para preguntas */
+ul, li {
+  list-style-type: none;
+  text-align: center;
+  color: rgb(141, 75, 34);
+  text-align: center;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.preguntas {
+  color: rgb(119, 5, 28);
+  font-size: x-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.respuestas {
+  color: rgb(141, 75, 34);
+  text-align: center;
+  font-size: large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  padding: 5px;
+  font-style: italic;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 50px;
+  background-color: rgb(172, 59, 59);
+}
+header h1 {
+  color: rgb(240, 136, 52);
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+header a {
+  text-decoration: none;
+  color: rgb(240, 136, 52);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+header li {
+  /* elimino la viñeta de las listas */
+  list-style-type: none;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.boton {
+  background-color: maroon;
+  padding: 7px 10px;
+  border-radius: 50px;
+  margin-top: 5px;
+}
+
+footer {
+  color: rgb(24, 20, 20);
+  font-size: medium;
+  font-style: italic;
+  background-image: url(../img/FONDO\ HUELLITAS.png);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.whatsapp {
+  gap: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.card {
+  margin: 40px;
+  width: 100%;
+  background: linear-gradient(rgb(211, 98, 98), rgb(206, 23, 23));
+}
+
+.mapa {
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.redes {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+form {
+  width: 400px;
+  background: rgb(223, 113, 49);
+  padding: 20px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(66, 14, 24);
+  box-shadow: 7px 13px 37px black;
+  font-weight: bold;
+}
+
+input[type=text],
+[type=password],
+[type=email],
+[type=date],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+input[type=radio] {
+  width: auto;
+  padding: 10px;
+}
+
+.btnformulario {
+  margin-bottom: 0;
+  background-color: rgb(156, 45, 45);
+  color: floralwhite;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.containerForm {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+.texto {
+  padding: 10px 20px;
+  font-size: 25px;
+}
+
+@media (max-width: 768px) {
+  /* Media general */
+  header, h1 {
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+  .navLink, .boton {
+    flex: 1;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 24px;
+  }
+  /* Media Index */
+  .banner {
+    flex-direction: column;
+  }
+  video {
+    flex-direction: column;
+  }
+  /* Media Tienda */
+  .card {
+    width: 80%;
+    margin: 10px;
+  }
+  /* Media Preguntas Frecuentes */
+  .preguntas {
+    font-size: 16px;
+    text-align: center;
+  }
+  .respuestas {
+    display: block;
+    text-align: center;
+  }
+  /* Media Contacto */
+  h2, h3, h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .redes {
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

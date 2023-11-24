@@ -1,0 +1,43 @@
+//CSS para el header
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    background-color: rgb(172, 59, 59);
+
+    //Titulo principal de la página
+    h1 {
+        color: rgb(240, 136, 52);
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    //Links de navegación
+    a {
+        text-decoration: none;
+        color: rgb(240, 136, 52);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: italic;
+        display: flex;
+        justify-content: center;
+    }
+
+    li {
+        /* elimino la viñeta de las listas */
+        list-style-type: none;
+    }
+
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.boton {
+    background-color: maroon;
+    padding: 7px 10px;
+    border-radius: 50px;
+    margin-top: 5px;
+}

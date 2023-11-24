@@ -1,0 +1,55 @@
+//CSS para Formularios
+
+form {
+    width: 400px;
+    background: rgb(223, 113, 49);
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(66, 14, 24);
+    box-shadow: 7px 13px 37px black;
+    font-weight: bold;
+}
+
+input[type="text"],
+[type="password"],
+[type="email"],
+[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid maroon;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+input[type=radio] {
+    width: auto;
+    padding: 10px;
+}
+
+.btnformulario {
+    margin-bottom: 0;
+    background-color: rgb(156, 45, 45);
+    color: floralwhite;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.containerForm {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+.texto {
+    padding: 10px 20px;
+    font-size: 25px;
+}
