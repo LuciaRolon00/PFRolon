@@ -34,6 +34,7 @@ h4 {
   font-size: x-large;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   margin: 5px;
+  padding: 30px;
 }
 
 /* Estilos para preguntas */
@@ -50,8 +51,9 @@ ul, li {
   color: rgb(119, 5, 28);
   font-size: x-large;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 5px;
+  padding-right: 30px;
   font-weight: bold;
+  margin-top: 20px;
 }
 
 .respuestas {
@@ -59,7 +61,7 @@ ul, li {
   text-align: center;
   font-size: large;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  padding: 5px;
+  padding-right: 30px;
   font-style: italic;
 }
 
@@ -123,7 +125,7 @@ footer {
 }
 
 .card {
-  margin: 40px;
+  margin: 70px;
   width: 100%;
   background: linear-gradient(rgb(211, 98, 98), rgb(206, 23, 23));
 }
@@ -137,7 +139,7 @@ footer {
 
 .redes {
   display: flex;
-  padding: 10px;
+  padding: 30px;
   align-items: center;
   justify-content: space-evenly;
   cursor: pointer;
@@ -211,26 +213,25 @@ input[type=radio] {
     margin-top: 5px;
     font-size: 24px;
   }
-  /* Media Index */
-  .banner {
-    flex-direction: column;
-  }
-  video {
-    flex-direction: column;
-  }
   /* Media Tienda */
   .card {
     width: 80%;
     margin: 10px;
   }
+  .card-body {
+    align-items: center;
+    padding: 70px;
+  }
   /* Media Preguntas Frecuentes */
   .preguntas {
     font-size: 16px;
     text-align: center;
+    padding-right: 25px;
   }
   .respuestas {
     display: block;
     text-align: center;
+    padding-right: 25px;
   }
   /* Media Contacto */
   h2, h3, h4 {
@@ -240,6 +241,12 @@ input[type=radio] {
   .redes {
     align-items: center;
   }
+}
+.carousel-inner {
+  max-width: 1100px;
+  max-height: 600px;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

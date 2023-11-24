@@ -15,29 +15,27 @@
         font-size: 24px;
     }
 
-    /* Media Index */
-    .banner {
-        flex-direction: column;
-    }
-
-    video {
-        flex-direction: column;
-    }
-
     /* Media Tienda */
     .card {
         width: 80%;
         margin: 10px;
+    }
+
+    .card-body {
+        align-items: center;
+        padding: 70px;
     }
     
     /* Media Preguntas Frecuentes */
     .preguntas {
         font-size: 16px;
         text-align: center;
+        padding-right: 25px;
     }
     .respuestas {
         display: block;
         text-align: center;
+        padding-right: 25px;
     }
 
     /* Media Contacto */
